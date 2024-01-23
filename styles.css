@@ -1,0 +1,70 @@
+:root {
+    --fonte-titulo: 'Krona one';
+    --fonte-paragrafo: 'Montserrat';
+    --cor-branco-principal: #F6F6F6;
+    --cor-azul-secundario: #22D4FD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 10%;
+}
+
+.destaque-titulo {
+    color: #22D4FD;
+}
+
+.conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; //nao é exclusiva do flexbox mas é utilizada quase sempre junto dele, especifica o tamanho entre linhas e colunas do grid, flez e multicolumn.
+}
+
+.conteudo__titulo {
+    color: var(--cor-branco-principal);
+    font-family: var(--fonte-titulo);
+    font-size: 36px;
+}
+
+.conteudo__paragrafo {
+    color: var(--cor-branco-principal);
+    font-family: var(--fonte-paragrafo);
+    font-size: 24px;
+}
+
+img {
+    width: 467.71px;
+    height: 532px;
+}
+
+.conteudo__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    background-color: var(--cor-azul-secundario);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    color: black;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: var(--fonte-paragrafo);
+    font-weight: 600;
+}
+
