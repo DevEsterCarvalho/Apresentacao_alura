@@ -78,6 +78,10 @@ body {
     border: var(--cor-azul-secundario) 2px solid;
 }
 
+.conteudo__links :hover {
+    background-color: grey;
+}
+
 .links__subtitulo {
     font-family: var(--fonte-titulo);
     color: var(--cor-branco-principal);
