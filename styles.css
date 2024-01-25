@@ -11,15 +11,30 @@
 }
 body {
     background-color: black;
-    height: 100vh;
+    color: var(--cor-branco-principal);
     box-sizing: border-box;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__links {
+    font-family: var(--fonte-paragrafo);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-azul-secundario);
+}
 .container-principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 10%;
+    padding: 5% 10%;
 }
 
 .destaque-titulo {
@@ -30,7 +45,7 @@ body {
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 40px; //nao é exclusiva do flexbox mas é utilizada quase sempre junto dele, especifica o tamanho entre linhas e colunas do grid, flez e multicolumn.
+    gap: 40px; /*nao é exclusiva do flexbox mas é utilizada quase sempre junto dele, especifica o tamanho entre linhas e colunas do grid, flez e multicolumn*/
 }
 
 .conteudo__titulo {
@@ -85,6 +100,16 @@ body {
 .links__subtitulo {
     font-family: var(--fonte-titulo);
     color: var(--cor-branco-principal);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rodape {
+    color: black;
+    background-color: var(--cor-azul-secundario);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-paragrafo);
     font-size: 24px;
     font-weight: 400;
 }
