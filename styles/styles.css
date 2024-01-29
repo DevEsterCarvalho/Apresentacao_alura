@@ -1,11 +1,4 @@
 :root {
-    /*--fonte-titulo: 'Krona one';
-    --fonte-paragrafo: 'Montserrat';
-    --cor-branco-principal: #F6F6F6;
-    --cor-azul-secundario: #22D4FD;
-    --cor-preto-fundo: #000000;
-    --cor-hoover: #272727;*/
-
     --fonte-titulo: 'Krona one';
     --fonte-paragrafo: 'Montserrat';
     --cor-branco-principal: #E6A4B4;
@@ -48,7 +41,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5% 10%;
+    padding: 6.5% 15%;
 }
 
 .destaque-titulo {
@@ -82,6 +75,11 @@ body {
 .imagem__principal {
     width: 467.71px;
     height: 532px;
+}
+
+.imagem__icone {
+    width: 32px;
+    height: 32px;
 }
 
 .conteudo__links {
