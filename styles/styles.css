@@ -61,6 +61,11 @@ body {
     font-size: 24px;
 }
 
+.conteudo__paragrafo a{
+    text-decoration: none;
+    color: var(--cor-branco-principal);
+}
+
 .imagem__principal {
     width: 467.71px;
     height: 532px;
