@@ -3,6 +3,8 @@
     --fonte-paragrafo: 'Montserrat';
     --cor-branco-principal: #F6F6F6;
     --cor-azul-secundario: #22D4FD;
+    --cor-preto-fundo: #000000;
+    --cor-hoover: #272727;
 }
 
 * {
@@ -10,7 +12,7 @@
     padding: 0;
 }
 body {
-    background-color: black;
+    background-color: var(--cor-preto-fundo);
     color: var(--cor-branco-principal);
     box-sizing: border-box;
 }
@@ -46,7 +48,7 @@ body {
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 40px; /*nao é exclusiva do flexbox mas é utilizada quase sempre junto dele, especifica o tamanho entre linhas e colunas do grid, flez e multicolumn*/
+    gap: 40px; 
 }
 
 .conteudo__titulo {
@@ -89,7 +91,7 @@ body {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    background-color: black;
+    background-color: var(--cor-preto-fundo);
     color: var(--cor-branco-principal);
     font-size: 24px;
     padding: 21.5px 0;
@@ -100,7 +102,7 @@ body {
 }
 
 .conteudo__links :hover {
-    background-color: grey;
+    background-color: var(--cor-hoover);
 }
 
 .links__subtitulo {
@@ -111,7 +113,7 @@ body {
 }
 
 .rodape {
-    color: black;
+    color: var(--cor-preto-fundo);
     background-color: var(--cor-azul-secundario);
     padding: 24px;
     text-align: center;
