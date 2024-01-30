@@ -25,12 +25,12 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .cabecalho__links {
     font-family: var(--fonte-paragrafo);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-azul-secundario);
     text-decoration: none;
@@ -52,19 +52,19 @@ body {
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 40px; 
+    gap: 2.5rem ; 
 }
 
 .conteudo__titulo {
     color: var(--cor-branco-principal);
     font-family: var(--fonte-titulo);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .conteudo__paragrafo {
     color: var(--cor-branco-principal);
     font-family: var(--fonte-paragrafo);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .conteudo__paragrafo a{
@@ -78,8 +78,8 @@ body {
 }
 
 .imagem__icone {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .conteudo__links {
@@ -87,20 +87,20 @@ body {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .links {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     background-color: var(--cor-azul-secundario);
     width: 378px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background-color: var(--cor-preto-fundo);
     color: var(--cor-branco-principal);
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     text-decoration: none;
     font-family: var(--fonte-paragrafo);
@@ -115,17 +115,17 @@ body {
 .links__subtitulo {
     font-family: var(--fonte-titulo);
     color: var(--cor-branco-principal);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 .rodape {
     color: var(--cor-preto-fundo);
     background-color: var(--cor-azul-secundario);
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
     font-family: var(--fonte-paragrafo);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
