@@ -49,7 +49,7 @@ body {
 }
 
 .conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem ; 
@@ -73,8 +73,9 @@ body {
 }
 
 .imagem__principal {
-    width: 467.71px;
-    height: 532px;
+    /*width: 467.71px;
+    height: 532px;*/
+    width: 50%;
 }
 
 .imagem__icone {
@@ -95,7 +96,7 @@ body {
     justify-content: center;
     gap: 1rem;
     background-color: var(--cor-azul-secundario);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 0.5rem;
     background-color: var(--cor-preto-fundo);
